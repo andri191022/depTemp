@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bTUyF43nTn3BnaoSQ6tJgPyxPtPsIn1wMgtXWlylsiw=",
+  "Source": "pu.backend.inquiry",
+  "BasePath": "_content/pu.backend.inquiry",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

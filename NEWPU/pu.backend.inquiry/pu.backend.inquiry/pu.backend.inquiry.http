@@ -1,0 +1,6 @@
+@pu.backend.inquiry_HostAddress = http://localhost:5261
+
+GET {{pu.backend.inquiry_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
