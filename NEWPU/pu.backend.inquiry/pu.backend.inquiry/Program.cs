@@ -1,4 +1,7 @@
+using Azure.Core;
+using Azure;
 using MediatR;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using pu.backend.inquiry.Data;
 using pu.backend.inquiry.Handlers;
@@ -9,9 +12,12 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+
 // Add services to the container.
 
 builder.Services.AddTransient<ResponseDto>();
+builder.Services.AddTransient<IRequestHandler<GetXmlInquiryQuery, ResponseDto>, GetXmlInquiryHandler>();
 
 builder.Services.AddMediatR(typeof(GetXmlInquiryQuery).GetTypeInfo().Assembly);
 builder.Services.AddMediatR(typeof(GetXmlInquiryHandler).GetTypeInfo().Assembly);
