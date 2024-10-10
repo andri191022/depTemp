@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\controllers\\gphemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\controllers\\gphemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -47,15 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Program.cs",
+              "RelativeDocumentMoniker": "pu.backend.inquiry\\Program.cs",
+              "ToolTip": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Program.cs",
+              "RelativeToolTip": "pu.backend.inquiry\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:19:08.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GPHEmailController.cs",
               "DocumentMoniker": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Controllers\\GPHEmailController.cs",
               "RelativeDocumentMoniker": "pu.backend.inquiry\\Controllers\\GPHEmailController.cs",
               "ToolTip": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Controllers\\GPHEmailController.cs",
               "RelativeToolTip": "pu.backend.inquiry\\Controllers\\GPHEmailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:04:26.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T04:04:26.225Z"
             }
           ]
         }
