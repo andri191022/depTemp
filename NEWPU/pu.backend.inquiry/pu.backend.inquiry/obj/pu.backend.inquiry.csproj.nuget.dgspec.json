@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\MUFG\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj": {}
+    "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj": {}
   },
   "projects": {
-    "D:\\Project\\MUFG\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj": {
+    "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\MUFG\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj",
+        "projectUniqueName": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj",
         "projectName": "pu.backend.inquiry",
-        "projectPath": "D:\\Project\\MUFG\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj",
+        "projectPath": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\pu.backend.inquiry.csproj",
         "packagesPath": "C:\\Users\\andri\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\MUFG\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\obj\\",
+        "outputPath": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
@@ -53,11 +53,19 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[11.0.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -70,6 +78,18 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

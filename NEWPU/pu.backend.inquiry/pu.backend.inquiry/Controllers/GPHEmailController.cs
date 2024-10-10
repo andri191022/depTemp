@@ -6,7 +6,7 @@ using pu.backend.inquiry.Queries;
 
 namespace pu.backend.inquiry.Controllers
 {
-    [Route("api/[controller]/v1/[action]")]
+    [Route("api/[controller]/v1")]
     [ApiController]
     public class GPHEmailController : ControllerBase
     {
