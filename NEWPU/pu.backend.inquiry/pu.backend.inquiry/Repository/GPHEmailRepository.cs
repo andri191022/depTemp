@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using pu.backend.inquiry.Data;
+using pu.backend.inquiry.Models;
 using pu.backend.inquiry.Models.GPHEmail;
 using pu.backend.inquiry.Models.GPHEmail.Dto;
 
@@ -92,9 +93,9 @@ namespace pu.backend.inquiry.Repository
                     outputParameter
                 };
 
-                var objR =  _emailServiceDbContext.Set<Usp_GetXmlInquiryModel>().FromSqlRaw("EXEC Usp_GetXmlInquiry @CustomerName, @DateFromPayment, @DateToPayment, @DateFromUpload, @DateToUpload, @Filename, @Status, @pageIndex, @pageSize, @totalRecord OUt", sqlParams).ToList();
+                var objR = await _emailServiceDbContext.Set<Usp_GetXmlInquiryModel>().FromSqlRaw("EXEC Usp_GetXmlInquiry @CustomerName, @DateFromPayment, @DateToPayment, @DateFromUpload, @DateToUpload, @Filename, @Status, @pageIndex, @pageSize, @totalRecord OUt", sqlParams).ToListAsync();
 
-               // @CustomerName,	@DateFromPayment ,@DateToPayment ,@DateFromUpload ,@DateToUpload ,	@FileName ,	@pageIndex ,@pageSize ,	@totalRecord OUTPUT
+                // @CustomerName,	@DateFromPayment ,@DateToPayment ,@DateFromUpload ,@DateToUpload ,	@FileName ,	@pageIndex ,@pageSize ,	@totalRecord OUTPUT
 
 
                 obj.Data = objR;
@@ -110,5 +111,13 @@ namespace pu.backend.inquiry.Repository
             return obj;
 
         }
+
+        public async Task<List<Mst_Setting>> GetMstSetting()
+        {
+            var objR = await _emailServiceDbContext.Set<Mst_Setting>().FromSqlRaw("select * from [Mst_Setting]").ToListAsync();
+            return objR;
+        }
+
+
     }
 }

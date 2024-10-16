@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
+using pu.backend.inquiry.Models;
 using pu.backend.inquiry.Models.GPHEmail;
+using System.Xml.Linq;
 
 namespace pu.backend.inquiry.Data
 {
@@ -10,6 +12,7 @@ namespace pu.backend.inquiry.Data
         private readonly IConfiguration _configuration;
 
         public DbSet<Usp_GetXmlInquiryModel> usp_GetXmlInquiryModels { get; set; }
+        public DbSet<Mst_Setting> Mst_Settings { get; set; }    
         public EmailServiceDbContext(DbContextOptions<EmailServiceDbContext> options, IConfiguration configuration) : base(options)
         {
             try
@@ -54,6 +57,12 @@ namespace pu.backend.inquiry.Data
             }
 
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Mst_Setting>()
+                .HasKey(t => new { t.Category, t.SubCategory, t.Code });
         }
 
     }

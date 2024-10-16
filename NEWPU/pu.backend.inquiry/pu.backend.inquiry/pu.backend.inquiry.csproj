@@ -31,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helper\" />
     <Folder Include="Commands\" />
     <Folder Include="NugetPackage\" />
   </ItemGroup>
