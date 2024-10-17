@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\pu.backend.inquiry.props" />
-</Project>
