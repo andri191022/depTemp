@@ -1,69 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09">
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
   <CstmrCdtTrfInitn>
     <GrpHdr>
-      <MsgId>WNG20241014004</MsgId>
-      <CreDtTm>2024-10-14T16:33:07</CreDtTm>
-      <NbOfTxs>6</NbOfTxs>
+      <MsgId>KTB098403945</MsgId>
+      <CreDtTm>2024-09-13T15:32:07</CreDtTm>
+      <NbOfTxs>5</NbOfTxs>
       <InitgPty/>
     </GrpHdr>
-
     <PmtInf>
-      <PmtInfId>17102024_6200002789_C4527</PmtInfId>
-      <PmtMtd>PWT</PmtMtd>
+      <PmtInfId>29387492834_W98798347_9879</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
       <ReqdExctnDt>
-        <Dt>2024-10-17</Dt>
+        <Dt>2024-09-17</Dt>
       </ReqdExctnDt>
       <Dbtr/>
-
       <DbtrAcct>
         <Id>
           <Othr>
-            <Id>3776IDRDVB6200002898</Id>
+            <Id>87827349JHKJKH</Id>
           </Othr>
         </Id>
       </DbtrAcct>
-
       <DbtrAgt>
         <FinInstnId/>
       </DbtrAgt>
-
       <CdtTrfTxInf>
         <PmtId>
-          <InstrId>3000426870</InstrId>
-          <EndToEndId>3000426870</EndToEndId>
+          <instrId>22099453945890</instrId>
+          <EndToEndId>9348593845</EndToEndId>
         </PmtId>
-
         <PmtTpInf>
           <LclInstrm>
             <Prtry>DOMESTIC</Prtry>
           </LclInstrm>
         </PmtTpInf>
-
         <Amt>
-          <InstdAmt Ccy="IDR">250000</InstdAmt>
+          <InstdAmt Ccy="IDR">200000</InstdAmt>
         </Amt>
         <ChrgBr>DEBT</ChrgBr>
         <CdtrAgt>
           <FinInstnId>
-            <Nm>BANK MANDIRI/PLAZA MANDIRI, KANTOR PUSAT/GATOT SUBROTO KAV 36-38, JAKARTA, ID</Nm>
+            <Nm>BANK MANDIRI JAKARTA UTARA SELATAN</Nm>
           </FinInstnId>
         </CdtrAgt>
         <Cdtr>
-          <Nm>ARI PRASETYO WARDOYO</Nm>
+          <Nm>ANDRI KURNIAWAN</Nm>
           <PstlAdr>
-            <TwnNm>JAKARTA TIMUR</TwnNm>
+            <TwnNm>JAKARTA UTARA</TwnNm>
             <Ctry>ID</Ctry>
           </PstlAdr>
         </Cdtr>
         <CdtrAcct>
           <Id>
             <Othr>
-              <Id>006-08-0408289-1</Id>
+              <Id>0006-00-48569485-1</Id>
             </Othr>
           </Id>
         </CdtrAcct>
-
         <RgltryRptg>
           <DbtCdtRptgInd>DEBT</DbtCdtRptgInd>
           <Authrty/>
@@ -71,49 +64,107 @@
             <Inf>03</Inf>
           </Dtls>
         </RgltryRptg>
+        <RltdRmtInf>
+          <RmtLctnDtls>
+            <Mtd>EMAL</Mtd>
+            <ElctrncAdr>andri@aku.com</ElctrncAdr>
+          </RmtLctnDtls>
+        </RltdRmtInf>
+        <RltdRmtInf>
+          <Mtd>EMAL</Mtd>
+          <ElctrncAdr>kamu@kamu.com; namaku@tikus.co.id</ElctrncAdr>
+        </RltdRmtInf>
+        <RltdRmtInf>
+          <RmtLctnDtls>
+            <Mtd>EMAL</Mtd>
+            <ElctrncAdr>kamu@hoh.co.id</ElctrncAdr>
+          </RmtLctnDtls>
+        </RltdRmtInf>
+        <RmtInf>
+          <Strd>
+            <RfrdDocInf>
+              <Nb>MAHMUD HARI</Nb>
+            </RfrdDocInf>
+            <RfrdDocAmt>
+              <RmtdAmt Ccy="IDR">28000</RmtdAmt>
+            </RfrdDocAmt>
+            <CdtrRefInf>
+              <Ref>29384792834</Ref>
+            </CdtrRefInf>
+            <AddtlRmtInf>BT JAKARTA 98 KDJFLKSD</AddtlRmtInf>            
+          </Strd>
+        </RmtInf>
+      </CdtTrfTxInf>
+      <CdtTrfTxInf>
+        <PmtId>
+          <instrId>23492374</instrId>
+          <EndToEndId>28934798</EndToEndId>
+        </PmtId>
+        <PmtTpInf>
+          <LclInstrm>
+            <Prtry>DOMESTIC</Prtry>
+          </LclInstrm>
+        </PmtTpInf>
+        <Amt>
+          <InstdAmt Ccy="IDR">200000</InstdAmt>
+        </Amt>
+        <ChrgBr>DEBT</ChrgBr>
+        <CdtrAgt>
+          <FinInstnId>
+            <Nm>BANK MANDIRI JAKARTA UTARA SELATAN</Nm>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>ANDRI KURNIAWAN</Nm>
+          <PstlAdr>
+            <TwnNm>JAKARTA UTARA</TwnNm>
+            <Ctry>ID</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>0006-00-48569485-1</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
         <RgltryRptg>
           <DbtCdtRptgInd>DEBT</DbtCdtRptgInd>
           <Authrty/>
           <Dtls>
-            <Inf>RRCR0132+</Inf>
+            <Inf>03</Inf>
           </Dtls>
         </RgltryRptg>
         <RltdRmtInf>
           <RmtLctnDtls>
             <Mtd>EMAL</Mtd>
-            <ElctrncAdr>pmt_jakarta@id.mufg.jp</ElctrncAdr>
+            <ElctrncAdr>andri@aku.com</ElctrncAdr>
           </RmtLctnDtls>
+        </RltdRmtInf>
+        <RltdRmtInf>
+          <Mtd>EMAL</Mtd>
+          <ElctrncAdr>kamu@kamu.com; namaku@tikus.co.id</ElctrncAdr>
         </RltdRmtInf>
         <RltdRmtInf>
           <RmtLctnDtls>
             <Mtd>EMAL</Mtd>
-            <ElctrncAdr>rahmad. afandi@ktb.co.id; bagus.raharjo@ktb.co.id</ElctrncAdr>
-          </RmtLctnDtls>
-        </RltdRmtInf>
-
-        <RltdRmtInf>
-          <RmtLctnDtls>
-            <Mtd>EMAL</Mtd>
-            <ElctrncAdr>ari-prasetyo@ktb.co.id</ElctrncAdr>
+            <ElctrncAdr>kamu@hoh.co.id</ElctrncAdr>
           </RmtLctnDtls>
         </RltdRmtInf>
         <RmtInf>
-          <Ustrd>2000315740</Ustrd>
           <Strd>
             <RfrdDocInf>
-              <Nb>SUSPEND SETTLE</Nb>
+              <Nb>MAHMUD HARI</Nb>
             </RfrdDocInf>
             <RfrdDocAmt>
-              <RmtdAmt Ccy="IDR">250000</RmtdAmt>
+              <RmtdAmt Ccy="IDR">28000</RmtdAmt>
             </RfrdDocAmt>
             <CdtrRefInf>
-              <Ref>1900444327</Ref>
+              <Ref>29384792834</Ref>
             </CdtrRefInf>
-            <AddtlRmtInf>BT Dom 19 Aug 24 - 24 Aug 24 ARI PRASETYO WARDOYO</AddtlRmtInf>
+            <AddtlRmtInf>BT JAKARTA 98 KDJFLKSD</AddtlRmtInf>
           </Strd>
         </RmtInf>
-
-
       </CdtTrfTxInf>
     </PmtInf>
   </CstmrCdtTrfInitn>
