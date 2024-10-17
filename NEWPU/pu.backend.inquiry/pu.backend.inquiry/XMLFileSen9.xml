@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.002.001.03">
+  <GrpHdr>
+    <MsgId>2024091332468186</MsgId>
+    <CreDtTm>2024-09-13T08:10:10</CreDtTm>
+  </GrpHdr>
+  <OrgnlGrpInfAndSts>
+    <OrgnlMsgId>KTB20240913003</OrgnlMsgId>
+    <OrgnlMsgNmId>Pain.001.0215</OrgnlMsgNmId>
+    <GrpSts>ACCP</GrpSts>
+    <StsRsnInf>
+      <Rsn>
+        <Prtry>00-00000</Prtry>
+      </Rsn>
+    </StsRsnInf>
+  </OrgnlGrpInfAndSts>
+  <OrgnlPmtInfAndSts>
+    <OrgnlPmtInfId>6546546-6546546-B564</OrgnlPmtInfId>
+    <TxInfAndSts>
+      <StsId>65465465654</StsId>
+      <OrgnlInstrId>6546546</OrgnlInstrId>
+      <OrgnlEndToEndId>65465</OrgnlEndToEndId>
+      <TxSts>ACCR</TxSts>
+      <StsRsnInf>
+        <Rsn>
+          <Prtry>654656</Prtry>
+        </Rsn>
+        <AddtlInf>654-66FSDF</AddtlInf>
+      </StsRsnInf>
+      <OrgnlTxRef>
+        <Amt>
+          <InstdAmt Ccy="IDR">250000</InstdAmt>
+        </Amt>
+        <ReqdExctnDt>2024-09-10</ReqdExctnDt>
+        <DbtrAcct>
+          <Id>
+            <Othr>546456CDFS65465</Othr>
+          </Id>
+        </DbtrAcct>
+        <DbtrAgt>
+          <FinInstnId/>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <Nm>BANK KDFLSKDF / JLFJSKLDF 8</Nm>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>ANDRI KJDLFK</Nm>
+          <PstlAdr>
+            <TwnNm>JAKARTA KK</TwnNm>
+            <Ctry>ID</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>006-65654-5</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+      </OrgnlTxRef>
+    </TxInfAndSts>
+    <TxInfAndSts>
+      <StsId>65465465654</StsId>
+      <OrgnlInstrId>6546546</OrgnlInstrId>
+      <OrgnlEndToEndId>65465</OrgnlEndToEndId>
+      <TxSts>ACCR</TxSts>
+      <StsRsnInf>
+        <Rsn>
+          <Prtry>654656</Prtry>
+        </Rsn>
+        <AddtlInf>654-66FSDF</AddtlInf>
+      </StsRsnInf>
+      <OrgnlTxRef>
+        <Amt>
+          <InstdAmt Ccy="IDR">250000</InstdAmt>
+        </Amt>
+        <ReqdExctnDt>2024-09-10</ReqdExctnDt>
+        <DbtrAcct>
+          <Id>
+            <Othr>546456CDFS65465</Othr>
+          </Id>
+        </DbtrAcct>
+        <DbtrAgt>
+          <FinInstnId/>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <Nm>BANK KDFLSKDF / JLFJSKLDF 8</Nm>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>ANDRI KJDLFK</Nm>
+          <PstlAdr>
+            <TwnNm>JAKARTA KK</TwnNm>
+            <Ctry>ID</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>006-65654-5</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+      </OrgnlTxRef>
+    </TxInfAndSts>
+  </OrgnlPmtInfAndSts>
+</Document>
