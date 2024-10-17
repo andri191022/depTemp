@@ -116,7 +116,7 @@ namespace pu.backend.inquiry.Models
     public class MX3_S_S_Amount
     {
         [XmlElement("InstdAmt")]
-        public InstructedAmount InstdAmt { get; set; }
+        public MX3_S_S_InstructedAmount InstdAmt { get; set; }
     }
 
     public class MX3_S_S_InstructedAmount
