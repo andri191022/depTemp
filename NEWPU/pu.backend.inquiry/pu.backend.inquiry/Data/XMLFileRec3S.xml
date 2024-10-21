@@ -69,10 +69,10 @@
             <Inf>RRC23156</Inf>
           </Dtls>
         </RgltryRptg>
-        <RltdmRmtInf>
+        <RltdRmtInf>
           <RmtLctnMtd>EMAL</RmtLctnMtd>
           <RmtLctnElctrncAdr>pmt@id.mufg.jp</RmtLctnElctrncAdr>
-        </RltdmRmtInf>
+        </RltdRmtInf>
         <RltdRmtInf>
           <RmtLctnMtd>EMAl</RmtLctnMtd>
           <RmtLctnElctrncAdr>aku@gw.co.id; namaku@gw.co.id</RmtLctnElctrncAdr>
@@ -113,7 +113,7 @@
         <ChrgBr>DEBT</ChrgBr>
         <CdtrAgt>
           <FinInstnId>
-            <Nm>BANK KJSDLFK KJDLFISDOF / 456 ,KL</Nm>
+            <BIC>BIC45654</BIC>
           </FinInstnId>
         </CdtrAgt>
         <Cdtr>
@@ -130,6 +130,7 @@
             </Othr>
           </Id>
         </CdtrAcct>
+        <InstrForDbtrAgt>SPECIAL</InstrForDbtrAgt>
         <RgltryRptg>
           <DbtCdtRptgInd>DEBT</DbtCdtRptgInd>
           <Authrty/>
@@ -144,10 +145,10 @@
             <Inf>RRC23156</Inf>
           </Dtls>
         </RgltryRptg>
-        <RltdmRmtInf>
+        <RltdRmtInf>
           <RmtLctnMtd>EMAL</RmtLctnMtd>
           <RmtLctnElctrncAdr>pmt@id.mufg.jp</RmtLctnElctrncAdr>
-        </RltdmRmtInf>
+        </RltdRmtInf>
         <RltdRmtInf>
           <RmtLctnMtd>EMAl</RmtLctnMtd>
           <RmtLctnElctrncAdr>aku@gw.co.id; namaku@gw.co.id</RmtLctnElctrncAdr>
