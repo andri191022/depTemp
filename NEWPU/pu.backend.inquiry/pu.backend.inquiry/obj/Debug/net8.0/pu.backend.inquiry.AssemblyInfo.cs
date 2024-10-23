@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pu.backend.inquiry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc561e660a7715e256879ddc244255ea5297a0ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c386522e7f035e6ebac03a0276b48be9bee0a95")]
 [assembly: System.Reflection.AssemblyProductAttribute("pu.backend.inquiry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pu.backend.inquiry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
