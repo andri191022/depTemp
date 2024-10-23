@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\models\\mx9_s_formatrecmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\models\\mx9_s_formatrecmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\models\\mx3_s_formatrecmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\models\\mx3_s_formatrecmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\xmlfilerec9.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\xmlfilerec9.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\data\\xmlfilerec3s.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\data\\xmlfilerec3s.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|d:\\temp\\deptemp\\newpu\\pu.backend.inquiry\\pu.backend.inquiry\\models\\mx3_s_formatsenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F645905-FD6B-430D-B432-F0C755E2149D}|pu.backend.inquiry\\pu.backend.inquiry.csproj|solutionrelative:pu.backend.inquiry\\models\\mx3_s_formatsenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,6 +47,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "MX9_S_FormatRecModel.cs",
               "DocumentMoniker": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Models\\MX9_S_FormatRecModel.cs",
               "RelativeDocumentMoniker": "pu.backend.inquiry\\Models\\MX9_S_FormatRecModel.cs",
@@ -89,40 +74,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+=======
+>>>>>>> ed59121b2bf904dc3fe376e1cc8882d361a62ca6
               "Title": "XMLFileRec9.xml",
               "DocumentMoniker": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\XMLFileRec9.xml",
               "RelativeDocumentMoniker": "pu.backend.inquiry\\XMLFileRec9.xml",
-              "ToolTip": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\XMLFileRec9.xml",
-              "RelativeToolTip": "pu.backend.inquiry\\XMLFileRec9.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-10-17T03:31:07.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MX3_S_FormatRecModel.cs",
-              "DocumentMoniker": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Models\\MX3_S_FormatRecModel.cs",
-              "RelativeDocumentMoniker": "pu.backend.inquiry\\Models\\MX3_S_FormatRecModel.cs",
-              "ToolTip": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Models\\MX3_S_FormatRecModel.cs",
-              "RelativeToolTip": "pu.backend.inquiry\\Models\\MX3_S_FormatRecModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAnwC4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:02:40.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MX3_S_FormatSenModel.cs",
-              "DocumentMoniker": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Models\\MX3_S_FormatSenModel.cs",
-              "RelativeDocumentMoniker": "pu.backend.inquiry\\Models\\MX3_S_FormatSenModel.cs",
-              "ToolTip": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\Models\\MX3_S_FormatSenModel.cs",
-              "RelativeToolTip": "pu.backend.inquiry\\Models\\MX3_S_FormatSenModel.cs",
+              "ToolTip": "D:\\temp\\depTemp\\NEWPU\\pu.backend.inquiry\\pu.backend.inquiry\\XMLFileRec9.xml*",
+              "RelativeToolTip": "pu.backend.inquiry\\XMLFileRec9.xml*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:02:28.574Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-20T12:43:05.811Z",
               "EditorCaption": ""
             }
           ]
