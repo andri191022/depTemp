@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Spire.PDF</id>
+    <version>10.11.1</version>
+    <title>Spire.PDF</title>
+    <authors>Administrator</authors>
+    <owners>e-iceblue</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>http://www.e-iceblue.com/Introduce/pdf-for-net-introduce.html</projectUrl>
+    <iconUrl>http://www.e-iceblue.com/images/product_logo/product_buy/pdfnet.png</iconUrl>
+    <description>Spire.PDF for .NET is a versatile PDF library that enables software developers to generate, edit, read and manipulate PDF files within their own .NET applications. As a standalone PDF component, Spire.PDF for .NET provides users an incredible wealth of features without installing Adobe Acrobat. This component is completely written in C#, but also supports VB.NET, Windows Forms and ASP.NET. 
+With the Spire.PDF for .NET API, you can get the ability to read PDF text and image even attachments with high efficiency. Even the special content such as language written from right to left can be extracted such as Herbrew and Arabic. Other basic features such as text, image, table, shapes, hyperlinks, bookmark, headings, footnotes, lists, form fields, pagination, booklet barcode, attachments, transparency, annotations, actions, overlay etc all work great for users. As for security, Spire.PDF for .NET enables you to protect your PDF files by passwords and digital signature. Spire.PDF now supprots to work on .NET core, MonoAndroid and Xamarin.iOS platforms.</description>
+    <summary></summary>
+    <releaseNotes>https://www.e-iceblue.com/news/spire-pdf.html</releaseNotes>
+    <copyright>Copyright © 2024 e-iceblue. All Rights Reserved.</copyright>
+    <language>en-US</language>
+    <tags>PDF application,PDF library, component, control, to XPS, Image, HTML, HTML PDF,PDF/A, word, Excel, PDF-to-DOC, Docx, OFD, PDF/A, form field, pdf xlsx, svg, xps, html, PDF, merge pdf, split ofd, signature, net core, .net standard, Visual-Studio, VisualStudio，markdown</tags>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework="net6.0">
+        <dependency id="System.Drawing.Common" version="6.0.0" />
+        <dependency id="System.Text.Encoding.CodePages" version="6.0.0" />
+      </group>
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Drawing.Common" version="4.5.0" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
